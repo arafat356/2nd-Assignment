@@ -84,3 +84,35 @@ button:hover {
 .last-banner {
   padding-top: 20px;
 }
+
+/* responsib */
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .players .blogs .courses {
+    grid-template-columns: repeat(1, 1fa);
+  }
+  .player .blog {
+    flex-direction: column;
+  }
+  .blogs,
+  .courses {
+    display: ;
+  }
+}
+
+/* tablet divices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .players .courses {
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ffc014;
+  }
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #ffc014;
+  }
+}
